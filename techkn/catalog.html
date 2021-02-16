@@ -10,7 +10,7 @@
 <body>
   <header>
     <div>
-      <a href="index.html">Техномарт</a>
+      <a href="#">Техномарт</a>
       <img src="img/logo.png" alt="Логотип ТЕХНОМАРТ">
       <form>
         <button type="submit">
@@ -26,19 +26,20 @@
       </div>
       <div>
         <a href="#">Равшан Джамшутович</a>
+        <a href="#">Выход</a>
         <a href="#">Мои заказы</a>
         <a href="#">Личный кабинет</a>
       </div>
       <nav>
         <ul>
           <li>
-            <a href="">Главная</a>
+            <a href="index.html">Главная</a>
           </li>
           <li>
             <a href="#">Компания</a>
           </li>
           <li>
-            <a href="#">Каталог</a>
+            <a href="">Каталог</a>
           </li>
           <li>
             <a href="#">Новости</a>
@@ -56,7 +57,6 @@
       </nav>
   </header>
   <main>
-    <h1>Каталог</h1>
     <ul>
       <li>
         <a href="#">Ссылка на осн.страницу</a>
@@ -72,18 +72,21 @@
       </li>
     </ul>
     <div>
-      <h2>Перфораторы</h2>
+      <h1>Перфораторы</h1>
     </div>
     <div>
-      <h2>Фильтр инструментов</h2>
-      <p>Фильтр:</p>
+      <h2>Фильтр </h2>
     </div>
-    <div>
-      <input class="min-price" type="text" name="price-min" aria-label="Минимальная цена" value="0">
-      <input class="max-price" type="text" name="price-max" aria-label="Максимальная цена цена" value="30000">
-    </div>
+    <form>
+      <fieldset>
+        <input class="min-price" type="text" name="price-min" aria-label="Минимальная цена" value="0">
+        <input class="max-price" type="text" name="price-max" aria-label="Максимальная цена цена" value="30000">
+      </fieldset>
+    </form>
     <section>
-      <h2>Фильтр товаров</h2>
+      <div>
+        <h2>Фильтр товаров</h2>
+      </div>
       <form method="get" action="https://echo.htmlacademy.ru">
         <fieldset>
           <legend>Производители:</legend>
@@ -93,7 +96,7 @@
               <label for="bosh1">Bosh</label>
             </li>
             <li>
-              <input type="checkbox" name="Интерескол" id="inter1">
+              <input type="checkbox" name="Intereskol" id="inter1">
               <label for="inter1">Интерескол</label>
             </li>
             <li>
@@ -114,11 +117,11 @@
           <legend>Питание:</legend>
           <ul>
             <li>
-              <input type="radio" name="nutrition" value="Accumulator" id="acum1">
+              <input type="radio" name="Accumulator" value="zaradka" id="acum1">
               <label for="acum1">Аккамуляторные</label>
             </li>
             <li>
-              <input type="radio" name="net" value="networks" id="netwok">
+              <input type="radio" name="Setevie" value="provod" id="netwok">
               <label for="netwok">Сетевые</label>
             </li>
           </ul>
@@ -127,8 +130,7 @@
       </form>
     </section>
     <section>
-      <h2>Функционал</h2>
-      <p>Сортировка:</p>
+      <h2>Сортировка:</h2>
       <div>
         <a href="#">По цене</a>
         <a href="#">По типу</a>
@@ -183,10 +185,10 @@
       </div>
       <ul>
         <li>
-          <a href="#">1</a>
+          <a href="">1</a>
         </li>
         <li>
-          <a>2</a>
+          <a href="#">2</a>
         </li>
         <li>
           <a href="#">3</a>
@@ -208,7 +210,7 @@
   </main>
   <footer>
     <div>
-      <a href="">Техномарт</a>
+      <a href="#">Техномарт</a>
       <img src="img/logo.png" alt="Логотип ТЕХНОМАРТ">
       <ul>
         <li>
@@ -218,7 +220,7 @@
           <a href="#">Новости</a>
         </li>
         <li>
-          <a href="catalog.html">Каталог</a>
+          <a href="">Каталог</a>
         </li>
         <li>
           <a href="#">Доставка</a>
@@ -266,6 +268,7 @@
     </div>
   </footer>
   <section>
+    <h2>Форма добавки товара</h2>
     <p>Товар добавлен в корзину!</p>
     <div>
       <a href="#">Оформить заказ</a>
@@ -274,4 +277,5 @@
     <button type="button"></button>
   </section>
 </body>
+
 </html>
